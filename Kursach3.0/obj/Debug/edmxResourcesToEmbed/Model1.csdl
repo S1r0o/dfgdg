@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ip4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Auth">
+    <Key>
+      <PropertyRef Name="ID_Auth" />
+    </Key>
+    <Property Name="ID_Auth" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Profile_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID_Category" />
+    </Key>
+    <Property Name="ID_Category" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title_Category" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Goods" Relationship="Self.FK_Goods_Category" FromRole="Category" ToRole="Goods" />
+  </EntityType>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="ID_Goods" />
+    </Key>
+    <Property Name="ID_Goods" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title_Goods" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Vendore_code_goods" Type="Int32" />
+    <Property Name="Prime_cost_goods" Type="Int32" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="Sold" Type="Int32" />
+    <Property Name="Decommisioned" Type="Int32" />
+    <Property Name="In_Stock" Type="Int32" />
+    <Property Name="ID_Category" Type="Int32" />
+    <Property Name="ID_supplier" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Goods_Category" FromRole="Goods" ToRole="Category" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_Goods_Supplier" FromRole="Goods" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID_supplier" />
+    </Key>
+    <Property Name="ID_supplier" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title_supplier" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Goods" Relationship="Self.FK_Goods_Supplier" FromRole="Supplier" ToRole="Goods" />
+  </EntityType>
+  <Association Name="FK_Goods_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID_Category" />
+      </Principal>
+      <Dependent Role="Goods">
+        <PropertyRef Name="ID_Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Goods_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID_supplier" />
+      </Principal>
+      <Dependent Role="Goods">
+        <PropertyRef Name="ID_supplier" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Auth" EntityType="Self.Auth" />
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="Goods" EntityType="Self.Goods" />
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" />
+    <AssociationSet Name="FK_Goods_Category" Association="Self.FK_Goods_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Goods" EntitySet="Goods" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Goods_Supplier" Association="Self.FK_Goods_Supplier">
+      <End Role="Supplier" EntitySet="Supplier" />
+      <End Role="Goods" EntitySet="Goods" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

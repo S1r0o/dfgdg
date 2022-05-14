@@ -1,0 +1,52 @@
+﻿<Window x:Class="Kursach3._0.RedactWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursach3._0"
+        mc:Ignorable="d"
+        Title="RedactWindow" Height="750" Width="400" MinWidth="400" MinHeight="750" MaxHeight="750" MaxWidth="400">
+    <Window.Resources>
+        <local:CategoryConverter x:Key="CategoryConverter"></local:CategoryConverter>
+        <local:SupplierConverter x:Key="SupplierConverter"></local:SupplierConverter>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Редактировать товар" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="26"/>
+        <TextBox x:Name="ArticlulBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="2" TextWrapping="Wrap" Text="{Binding Vendore_code_goods}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Label Content="Артикул" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <Label Content="Наименование товара" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <TextBox x:Name="NameBox" Grid.Column="1" Grid.Row="1" Width="310" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextWrapping="Wrap" Text="{Binding Title_Goods}" FontFamily="Times New Roman" FontSize="16" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <ComboBox x:Name="GTComboBox" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Bottom" Width="310" Height="30" DisplayMemberPath="Title_Category" SelectedIndex="{Binding ID_Category}" FontFamily="Times New Roman" FontSize="16"/>
+        <ComboBox x:Name="SPComboBox" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Bottom" Width="310" Height="30" SelectedIndex="{Binding ID_supplier}" DisplayMemberPath="Title_supplier" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="InStockTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="5" TextWrapping="Wrap" Text="{Binding In_Stock}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Label Content="Категория товара" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <Label Content="Количество проданных" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <TextBox x:Name="DecommissionedBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="7" TextWrapping="Wrap" Text="{Binding Decommisioned}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="SoldBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="6" TextWrapping="Wrap" Text="{Binding Sold}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Label Content="Количество списанных" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24" />
+        <Label Content="Количество в наличии" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24" Width="256"/>
+        <Button x:Name="RedButton" Content="Редактировать" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="10" VerticalAlignment="Center" Width="120" Height="40" FontFamily="Times New Roman" FontSize="18" Click="RedButton_Click"/>
+        <TextBox x:Name="MinCostTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Prime_cost_goods}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="PriceBox" Grid.Column="1" HorizontalAlignment="Left" Height="30" Grid.Row="4" TextWrapping="Wrap" Text="{Binding Price}" VerticalAlignment="Bottom" Width="310" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+        <Label Content="Себестоимость" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <Label Content="Цена" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+        <Label Content="Поставщик" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Top" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FontFamily="Times New Roman" FontSize="24"/>
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ip4ModelContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Auth">
+      <EntityTypeMapping TypeName="ip4Model.Auth">
+        <MappingFragment StoreEntitySet="Auth">
+          <ScalarProperty Name="ID_Auth" ColumnName="ID_Auth" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Profile_Name" ColumnName="Profile_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="ip4Model.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="ID_Category" ColumnName="ID_Category" />
+          <ScalarProperty Name="Title_Category" ColumnName="Title_Category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goods">
+      <EntityTypeMapping TypeName="ip4Model.Goods">
+        <MappingFragment StoreEntitySet="Goods">
+          <ScalarProperty Name="ID_Goods" ColumnName="ID_Goods" />
+          <ScalarProperty Name="Title_Goods" ColumnName="Title_Goods" />
+          <ScalarProperty Name="Vendore_code_goods" ColumnName="Vendore_code_goods" />
+          <ScalarProperty Name="Prime_cost_goods" ColumnName="Prime_cost_goods" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Sold" ColumnName="Sold" />
+          <ScalarProperty Name="Decommisioned" ColumnName="Decommisioned" />
+          <ScalarProperty Name="In_Stock" ColumnName="In_Stock" />
+          <ScalarProperty Name="ID_Category" ColumnName="ID_Category" />
+          <ScalarProperty Name="ID_supplier" ColumnName="ID_supplier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supplier">
+      <EntityTypeMapping TypeName="ip4Model.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="ID_supplier" ColumnName="ID_supplier" />
+          <ScalarProperty Name="Title_supplier" ColumnName="Title_supplier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

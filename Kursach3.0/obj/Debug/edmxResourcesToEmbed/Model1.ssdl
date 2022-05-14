@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ip4Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Auth">
+    <Key>
+      <PropertyRef Name="ID_Auth" />
+    </Key>
+    <Property Name="ID_Auth" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="150" />
+    <Property Name="Password" Type="nvarchar" MaxLength="150" />
+    <Property Name="Profile_Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="ID_Category" />
+    </Key>
+    <Property Name="ID_Category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title_Category" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="ID_Goods" />
+    </Key>
+    <Property Name="ID_Goods" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title_Goods" Type="nvarchar" MaxLength="150" />
+    <Property Name="Vendore_code_goods" Type="int" />
+    <Property Name="Prime_cost_goods" Type="int" />
+    <Property Name="Price" Type="int" />
+    <Property Name="Sold" Type="int" />
+    <Property Name="Decommisioned" Type="int" />
+    <Property Name="In_Stock" Type="int" />
+    <Property Name="ID_Category" Type="int" />
+    <Property Name="ID_supplier" Type="int" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="ID_supplier" />
+    </Key>
+    <Property Name="ID_supplier" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title_supplier" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <Association Name="FK_Goods_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="ID_Category" />
+      </Principal>
+      <Dependent Role="Goods">
+        <PropertyRef Name="ID_Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Goods_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="Goods" Type="Self.Goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="ID_supplier" />
+      </Principal>
+      <Dependent Role="Goods">
+        <PropertyRef Name="ID_supplier" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ip4ModelContainer">
+    <EntitySet Name="Auth" EntityType="Self.Auth" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Goods" EntityType="Self.Goods" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Goods_Category" Association="Self.FK_Goods_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Goods" EntitySet="Goods" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Goods_Supplier" Association="Self.FK_Goods_Supplier">
+      <End Role="Supplier" EntitySet="Supplier" />
+      <End Role="Goods" EntitySet="Goods" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

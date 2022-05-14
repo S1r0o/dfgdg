@@ -1,0 +1,105 @@
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe.config
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.pdb
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.dll
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.xml
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Roflan\Kursach3.0\Kursach3.0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.AssemblyReference.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.SuggestedBindingRedirects.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\App.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_Content.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.lref
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.g.resources
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3._0.Properties.Resources.resources
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.GenerateResource.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CoreCompileInputs.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CopyComplete
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.exe
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.pdb
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.g.cs
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.ResolveComReference.cache
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\Resources\Themes\RDictionary.baml
+C:\Roflan\Kursach3.0\Kursach3.0\obj\Debug\App.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.AssemblyReference.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.SuggestedBindingRedirects.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.ResolveComReference.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Resources\Themes\RDictionary.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\App.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_Content.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.lref
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.exe
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.pdb
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe.config
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.pdb
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.dll
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.dll
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.xml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.xml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\bin\Debug\ru\EntityFramework.resources.dll
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\App.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.baml
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.g.resources
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3._0.Properties.Resources.resources
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.GenerateResource.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CoreCompileInputs.cache
+D:\ПрактикаДипломКурсач\Курсач2\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CopyComplete
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe.config
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.exe
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\Kursach3.0.pdb
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.dll
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.xml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.AssemblyReference.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.ResolveComReference.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Resources\Themes\RDictionary.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\App.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_Content.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0_MarkupCompile.lref
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\App.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\AddWindow.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\GoodsWindow.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\MainWindow.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\RedactWindow.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\ReportWindow.baml
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.g.resources
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3._0.Properties.Resources.resources
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.GenerateResource.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CoreCompileInputs.cache
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.csproj.CopyComplete
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.exe
+C:\Users\Siro\OneDrive\Рабочий стол\Kursach3.0\Kursach3.0\obj\Debug\Kursach3.0.pdb
